@@ -1,28 +1,43 @@
 .header{
-    margin: 0px 60px 0px 60px;
+    margin: 30px 60px 0px 60px;
 }
+
+.logo1{
+  height:40px;
+}
+
+.logo2{
+    height:60px;
+  }
+
 .flex{
   display:flex;
   align-items: center;
 }
+
 .flex-center{
-    justify-content: center;
+  justify-content: center;
 }
+
 .between{
-justify-content: space-between;
+  justify-content: space-between;
 }
+
 /* .flex-end{
     justify-content: flex-end;
 }
 .flex-start{
     justify-content: flex-start;
 } */
+
  .flex-column{
     flex-direction: column;
  }
+
  .button1{
     margin-right:50px;
  }
+
  /* .img-posts{
     width:30vw;
  } */
@@ -31,6 +46,7 @@ justify-content: space-between;
     flex-wrap:wrap;
     margin-bottom:5vh;
  }
+
  /* .img1{
     background-image: url(https://images.pexels.com/photos/1646311/pexels-photo-1646311.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     height: 400px;
