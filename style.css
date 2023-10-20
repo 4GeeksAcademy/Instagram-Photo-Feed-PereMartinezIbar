@@ -1,5 +1,6 @@
 .header{
-    margin: 30px 60px 0px 60px;
+    margin: 30px 60px 20px 60px;
+    /* background-color: lightgrey; */
 }
 
 .logo1{
@@ -30,12 +31,13 @@
     justify-content: flex-start;
 } */
 
+
+.button1{
+  margin-right:50px;
+}
+
  .flex-column{
     flex-direction: column;
- }
-
- .button1{
-    margin-right:50px;
  }
 
  .logout{
@@ -46,8 +48,6 @@
     width:30vw;
  } */
  .img-wrap{
-    flex-direction:row;
-    flex-wrap:wrap;
     margin-bottom:5vh;
  }
 
@@ -71,9 +71,9 @@
 } */
 
 .img-1, .img-2, .img-3 {
-    width: 30vw; 
+    /* width: 30vw;  */
     height: 27vw; 
-    overflow: hidden; 
+padding: 10px 10px 10px 10px;
 }
 
 .img-1 img, .img-2 img, .img-3 img {
@@ -82,30 +82,36 @@
     object-fit:cover;
 }
 
+.img-cards{
+  width:50vw;
+}
+
 .post{
-  width:30vw;
+  width:35vw;
 }
 
 .container-post{
   border-radius: 5px;
   border: 0.5px solid grey;
   padding: 10px 0 10px 0;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 
 .text{
   margin-left:10px;
-  margin-right:-10px;
-  padding-right: 20px;
   text-align: justify;
 }
 
 .figures{
   border-radius: 5px;
-  border: 0.5px solid rgb(202, 202, 202);
+  border: 0.5px solid rgb(196, 196, 196);
   padding:10px 0px 10px 0px;
   margin:10px 10px 0 0;
   width:40px;
   display:flex;
   justify-content: center;
+}
+
+.cards{
+  margin-top:10px;
 }
