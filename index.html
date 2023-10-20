@@ -15,7 +15,42 @@
             <img class="logo2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1280px-Instagram_logo.svg.png" alt="instagram logo"/>
           </div>
         <div class="flex">
-            <button type="button" class="btn btn-success button1">Create a new post</button>
+  
+            <button type="button" class="btn btn-success button1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Create a new post
+            </button>
+            
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Create a new post</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+
+                  <div class="modal-body">
+
+                   <strong>Caption:</strong> 
+                    <div class="form-floating">
+                      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                      <label for="floatingTextarea2">Add the caption of your post here</label>
+                    </div>
+
+                    <div class="flex">
+                      <div class="figures"><i class="fa-solid fa-camera"></i></div>
+                      <div class="figures"><i class="fa-solid fa-location-dot"></i></div>
+                    </div>
+
+                  </div>
+
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success ">Publish</button>
+                  </div>
+                </div>
+              </div>
+            </div>
             <ul class="navbar-nav">
                 <li class="nav-item dropdown">
                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
