@@ -44,9 +44,7 @@
   color:red;
  }
 
- /* .img-posts{
-    width:30vw;
- } */
+
  .img-wrap{
     margin-bottom:5vh;
  }
@@ -72,7 +70,7 @@
 
 .img-1, .img-2, .img-3 {
     /* width: 30vw;  */
-    height: 27vw; 
+    height: 35vw; 
 padding: 10px 10px 10px 10px;
 }
 
